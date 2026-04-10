@@ -21,7 +21,7 @@ redis:
   storage: 1Gi
 
 app:
-  image: javassem/app:v3
+  image: javassem/app:v4
   replicas: 3
   secret:
     mysqlUser: "frodo"
