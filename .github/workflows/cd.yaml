@@ -43,6 +43,7 @@ jobs:
           echo "SAFE_TAG=$SAFE_TAG" >> $GITHUB_ENV
           echo "ORIGINAL_MSG=$ORIGINAL_MSG" >> $GITHUB_ENV
 
+
       # 3. 변경사항 커밋 및 푸시
       - name: Commit and push changes
         run: |

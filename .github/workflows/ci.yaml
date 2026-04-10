@@ -46,6 +46,8 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max  
 
+          
+
       # # 4. AWS 자격 증명 설정
       # - name: Configure AWS Credentials
       #   uses: aws-actions/configure-aws-credentials@v4
