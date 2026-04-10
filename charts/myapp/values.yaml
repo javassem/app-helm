@@ -38,5 +38,5 @@ nginx:
   replicas: 3
 
 ingress:
-  host: www.ciacia.o-r.kr
+  host: www.javassem.p-e.kr
   certificateArn: arn:aws:acm:ap-northeast-2:378271264675:certificate/5667a666-5172-43ba-b66b-d515ebd0a85c
