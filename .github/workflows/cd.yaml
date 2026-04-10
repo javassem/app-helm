@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Helm repository
         uses: actions/checkout@v4
         with:
-          repository: javassemkim/app-helm # 변경 필요
+          repository: javassem/app-helm
           ref: main
           token: ${{ secrets.GH_TOKEN }}
 
